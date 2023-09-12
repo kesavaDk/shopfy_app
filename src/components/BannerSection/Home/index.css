@@ -1,0 +1,60 @@
+
+@media  (min-width:576px) {
+    .mobile-devices{
+        display: none;
+    }
+    
+}
+@media (max-width:576px) {
+    .large-devices{
+        display: none;
+    }
+    
+}
+.plan-heading{
+    border:2px solid #dbe3de;
+    width:33%;
+    display: flex;
+    justify-content: center;
+    padding:25px;
+    border-top: 5px solid #dbe3de;
+    font-weight: 800;
+}
+.plans-container{
+    display: flex;
+    
+}
+.rupees{
+    font-weight:800;
+    font-size: 50px;
+    margin-left: 25px;
+    
+}
+.plan-container{
+    border: 2px solid #75cc50;
+    font-size: 10px;
+    padding:15px;
+    background-color: #f3f9f4;
+}
+.plan-details-container{
+    margin-top: 90px;
+    margin-left: 25px;
+}
+.button{
+    width:90%;
+    height:60px;
+    background-color:#000;
+    color: #fff;
+    margin-top: 150px;
+    margin-left: 15px;
+    border-radius: 25px;
+    
+    
+}
+.larger-devices-header{
+    display: flex;
+    background-color: transparent;
+    border: 2px solid #75cc50;
+    border-radius: 18px;
+    width:220px;
+}
